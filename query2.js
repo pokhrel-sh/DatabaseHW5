@@ -1,3 +1,4 @@
+//Return the top 10 screen_names by their number of followers
 import { MongoClient } from 'mongodb';
 
 const client = await MongoClient.connect('mongodb://localhost:27017/');

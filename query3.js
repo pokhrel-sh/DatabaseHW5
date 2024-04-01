@@ -1,3 +1,4 @@
+//Who is the person that got the most tweets?
 import { MongoClient } from 'mongodb';
 
 const client = await MongoClient.connect('mongodb://localhost:27017/');
